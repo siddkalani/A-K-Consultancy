@@ -12,6 +12,7 @@ import hotelStore from './store/store.js';
 import SmoothScrolling from './components/scroll/SmoothScrolling.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Solutions from './components/pages/Navigations/Solutions.jsx';
 
 AOS.init();
 
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Main />
       },
+      {
+        path: "/solutions",
+        element: <Solutions />
+      },
+      
       // {
       //   path: "/stay",
       //   element: <Stay />

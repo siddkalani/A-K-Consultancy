@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { sidebarActions } from '../../store/slices/siderbarSlice';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -44,31 +45,38 @@ const Header = () => {
       <div className='flex items-center bg-transparent justify-between w-full p-nav'>
         <div className={`btn h-[2em] hover:shadow-md lg:h-[var(--btn-height-small)] ${scrollState.isDarkMode ? 'bg-[var(--color-butterflygreen-900)] text-white' : ''}`}>
         </div>
-        <div className='logo'>
-          <div className={`inline-block text-4xl h-[1.25rem] transition-all has-sticky-header:!text-primary ${scrollState.isDarkMode ? 'text-red-600' : 'text-white'}`}>
-            𝐀&𝐊
+        
+          <div className='logo'>
+          <Link to={'/'}>
+            <div className={`inline-block text-4xl h-[1.25rem] transition-all has-sticky-header:!text-primary ${scrollState.isDarkMode ? 'text-red-600' : 'text-white'}`}>
+              𝐀&𝐊
+            </div>
+            </Link>
           </div>
-        </div>
+
         <div>
           <nav className='flex items-center gap-nav'>
-            {/* will be mapped from data */}
             <ul className={`lg:flex hidden ${scrollState.isDarkMode ? 'text-[var(--color-dark)]' : 'text-[var(--color-white)]'}`}>
-              {['Stay', 'Dining', 'Relax', 'Discover'].map((item, index) => (
+              {['Solutions', 'Dining', 'Relax', 'Discover'].map((item, index) => (
                 <li key={index} className='nav-a'>
-                  <a href='#' className='flex-custom-center relative overflow-hidden group uppercase'>
+                  <Link
+                    to={`/${item.toLowerCase()}`}
+                    className='flex-custom-center relative overflow-hidden group uppercase'
+                  >
                     <span className='nav-span inline-block transition-all duration-300 ease-in-out transform group-hover:scale-105 group-hover:text-[var(--color-accent)]'>
-                      <span className={`text-5 ${scrollState.isDarkMode ? 'dark-underline' : 'hover-underline'}`}>{item}</span>
+                      <span className={`text-5 ${scrollState.isDarkMode ? 'dark-underline' : 'hover-underline'}`}>
+                        {item}
+                      </span>
                     </span>
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
-
           </nav>
         </div>
       </div>
       {/* <div className={`${scrollState.isDarkMode ? 'bg-[var(--color-border)] border-bottom' : 'border-bottom'}`}></div> */}
-    </header>
+    </header >
   )
 }
 

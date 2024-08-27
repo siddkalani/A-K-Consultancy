@@ -1,0 +1,185 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+const Solutions = () => {
+  useEffect(() => {
+    AOS.init({ duration: 700, once: false });
+  }, []);
+
+  return (
+    <div className='w-full h-full relative section-padding bg-[#333333]'>
+      <section className="big-label-text flex items-center justify-center">
+        <div className="w-[90%]">
+          <div className="mb-14 | sm:mb-16 md:mb-20 | lg:mb-24">
+            <span className="smallHeading smallHeading--left opacity-50 text-white">
+              Debunking the myths
+            </span>
+            <h2
+              className="sectionHeading sectionHeading--medium text-white"
+              style={{
+                margin: '0',
+                textAlign: 'left'
+              }}
+            >
+              There are many myths surrounding CSS. We work closely with you to dispel the mythology and help you make the most of the technology, thanks to our unique offering.{' '}
+            </h2>
+          </div>
+          <div
+            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
+            style={{
+              maxWidth: '1172px'
+            }}
+          >
+            <span
+              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
+              data-aos="fade-in"
+            >
+              Myth #1
+            </span>
+            <h2
+              className="big-label-text__heading text-white font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
+              style={{
+                maxWidth: '582px'
+              }}
+              data-aos="fade-right"
+            >
+              We don’t do CSS because it competes with our Google Shopping activity.”
+            </h2>
+            <div
+              className="Wysiwyg Wysiwyg--medium  Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
+              data-aos="fade-left"
+            >
+              <p className='text-white'>
+                This is a frustrating misunderstanding held by many brands because the truth is it doesn’t. Brands could be missing out on a lot of revenue if they subscribe to this particular myth. You don’t have to take our word for it: Google’s
+                own{' '}
+                <a
+                  href="https://support.google.com/merchants/answer/7558973?hl=en-GB"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  article explains
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
+            style={{
+              maxWidth: '1172px'
+            }}
+          >
+            <span
+              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
+              data-aos="fade-in"
+            >
+              Myth #2
+            </span>
+            <h2
+              className="big-label-text__heading text-white font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
+              style={{
+                maxWidth: '582px'
+              }}
+              data-aos="fade-right"
+            >
+              Our PPC team advised us that running CSS will cannibalise our sales.”
+            </h2>
+            <div
+              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
+              data-aos="fade-left"
+            >
+              <p className='text-white'>
+                As with Myth #1, CSS doesn’t cannibalise sales through any other channel. Shareight’s CCS activity would not compete against your brand. It would only compete against other brands on your behalf. Again, these are{' '}
+                <a
+                  href="https://www.youtube.com/watch?v=jHc_NIr8CPQ"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  Google’s words
+                </a>
+                {' '}not ours.
+              </p>
+              <p className='text-white'>
+                A simple way to dispel this myth is to run a trial with us and let the numbers do the talking.
+              </p>
+            </div>
+          </div>
+
+          <div
+            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
+            style={{
+              maxWidth: '1172px'
+            }}
+          >
+            <span
+              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
+              data-aos="fade-in"
+            >
+              Myth #3
+            </span>
+            <h2
+              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
+              style={{
+                maxWidth: '582px'
+              }}
+              data-aos="fade-right"
+            >
+              We already work with one CSS partner, so we don’t need another.”
+            </h2>
+            <div
+              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
+              data-aos="fade-left"
+            >
+              <p className='text-white'>
+                In fact there are two compelling reasons to have more than one CSS partner: gain incremental revenue and grow market share. AWin have a{' '}
+                <a
+                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  great article
+                </a>
+                {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer className="md:absolute bottom-0 w-full items-center justify-center mx-auto text-white">
+        <div className="w-full md:flex md:flex-col items-center justify-center">
+          <div className="flex flex-col md:flex-row md:justify-between items-center text-18 md:text-5">
+            <div className="flex flex-col md:flex-row md:mb-0">
+              <div className="mb-8 md:mr-5">
+                ©
+                <span className="mr-1.5 ml-0.5 uppercase" itemProp="copyrightHolder">
+                  Unicepta
+                </span>
+                <span itemProp="copyrightYear">2024</span>
+              </div>
+              <ul className="space-y-3 md:flex md:space-x-5 md:space-y-0">
+                <li>
+                  <a href="/contact.html">Contact</a>
+                </li>
+                <li>
+                  <a href="/privacy-policy.html">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="/imprint.html">Imprint</a>
+                </li>
+                <li>
+                  <a href="/newsletter.html">Newsletter</a>
+                </li>
+                <li>
+                  <a href="/anti-slavery-policy.html">Anti-Slavery Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Solutions;
