@@ -19,22 +19,22 @@ const WhyUs = () => {
                         </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-center text-white space-y-8 mt-8 sm:mt-0">
-                        <h2 className="text-2">Why You Might Consider Working With Us:</h2>
+                        <h2 className="text-2">The Value We Bring to Your Business:</h2>
                         <div className="space-y-4">
                             <p className="text-4">
-                                Sources
+                            Expertise
                                 <br />
-                                We monitor and evaluate more than 460 million sources of information every single day.
+                                We offer specialized knowledge across various industries, ensuring you receive tailored insights and solutions.
                             </p>
                             <p className="text-4">
-                                Technology
+                            Innovation
                                 <br />
-                                Our systems work with the latest crawling technology and AI-powered text mining.
+                                Our approach integrates cutting-edge tools and methodologies, leveraging the latest advancements to deliver optimal results.
                             </p>
                             <p className="text-4">
-                                Talent
+                            Commitment
                                 <br />
-                                Our monitoring and analytics experts excel in both digital media expertise and industry knowledge.
+                                Our dedicated team is passionate about driving success, providing unwavering support and strategic guidance to achieve your goals.
                             </p>
                             {/* <p className="text-4">
                                 Insights

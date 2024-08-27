@@ -18,14 +18,14 @@ const Earth = () => {
                         <div className="flex flex-1 flex-col justify-center items-end md:col-span-8">
                             <header className="grid grid-cols-1">
                                 <h2 className="text-2 text-white">
-                                    By 2025, the amount of data generated each day will reach 463 exabytes globally
+                                    By 2025, the daily data generated globally will surge to unimaginable levels.
                                 </h2>
                                 <p className="text-4 text-white mt-4">
-                                    That’s nearly 200 times as much as in 2020. So, are you ready?
-                                    That’s nearly 200 times as much as in 2020. So, are you ready?
-                                    That’s nearly 200 times as much as in 2020. So, are you ready?
-                                    That’s nearly 200 times as much as in 2020. So, are you ready?
-                                    
+                                    With data growth on the horizon, is your organization ready to innovate?
+                                    As data complexity increases, are your solutions agile enough?
+                                    The future is data-rich—does your strategy match?
+                                    The data deluge is coming. Are you equipped to handle it?
+
                                 </p>
                             </header>
                             {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 min-h-150">

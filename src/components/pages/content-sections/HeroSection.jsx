@@ -43,7 +43,8 @@ const HeroSection = () => {
                   data-aos="fade-up" // Add AOS animation attribute
                   data-aos-duration="1000" // Animation duration in milliseconds
                 >
-                  Delivering Quality <br /> Solutions Every Time
+                  {/* Delivering Quality <br /> Solutions Every Time */}
+                  Guiding Your Vision<br /> to Reality
                 </h1>
               </div>
             </div>

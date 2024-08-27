@@ -26,15 +26,15 @@ const ReservationSection = () => {
                                             data-aos="fade-up" // Add AOS animation attribute
                                             data-aos-duration="1000" // Animation duration in milliseconds
                                         >
-                                            Listening Requires Talking <br />
-                                            To Each Other
+                                            True Engagement Begins <br />
+                                            with Understanding
                                         </h1>
                                     </div>
 
                                     <div className={`btn md:w-[12rem] w-[80%] btn-svg h-[3rem] border-[0.5px] border-white bg-transparent text-white hover:bg-white hover:text-black`}>
                                         <div className='btn-content gap-3'>
 
-                                            <span className=''>TALK TO US</span>
+                                            <span className=''>VISIT US</span>
 
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@ const ReservationSection = () => {
                                                 <div className="mb-8 md:mr-5">
                                                     ©
                                                     <span className="mr-1.5 ml-0.5 uppercase" itemProp="copyrightHolder">
-                                                        Unicepta
+                                                        A&K
                                                     </span>
                                                     <span itemProp="copyrightYear">2024</span>
                                                 </div>

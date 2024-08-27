@@ -34,7 +34,7 @@ const DiningIntro = () => {
               data-aos-duration="500" // Duration of the animation
               data-aos-delay="200" // Delay before the animation starts
             >
-              <h2 className='text-2'>Bali's gourmet retreat</h2>
+              <h2 className='text-2'>Your Trusted Partner for Professional Excellence</h2>
             </div>
             <div
               className='max-w-[35em]'
@@ -43,7 +43,7 @@ const DiningIntro = () => {
               data-aos-delay="400" // Delay before the animation starts
             >
               <p className='text-4'>
-                The food at Damai is easy to enjoy. Simple brasserie dishes. Balinese classics. Tropical, local and good. Most evenings dinner is served by the poolside, by a roaring fire, under the stars, with a view over the boats at sea, catching the fish for tomorrow's menu.
+              At A&K, solutions are simple, effective, and tailored to your needs. Expert strategies, industry insights, and results-oriented services—designed to elevate your business. Most of our consulting sessions are held in a relaxed, focused environment, fostering strategic discussions under clear objectives, with the future of your business in view—like setting the course for tomorrow’s success.
               </p>
             </div>
           </div>
