@@ -43,7 +43,7 @@ const DiningIntro = () => {
               data-aos-delay="400" // Delay before the animation starts
             >
               <p className='text-4'>
-              At A&K, solutions are simple, effective, and tailored to your needs. Expert strategies, industry insights, and results-oriented services—designed to elevate your business. Most of our consulting sessions are held in a relaxed, focused environment, fostering strategic discussions under clear objectives, with the future of your business in view—like setting the course for tomorrow’s success.
+                At A&K, solutions are simple, effective, and tailored to your needs. Expert strategies, industry insights, and results-oriented services—designed to elevate your business. Most of our consulting sessions are held in a relaxed, focused environment, fostering strategic discussions under clear objectives, with the future of your business in view—like setting the course for tomorrow’s success.
               </p>
             </div>
           </div>

@@ -16,7 +16,7 @@ const HeroSection = () => {
             muted
           />
           {/* Black opacity overlay */}
-          <div className="absolute inset-0 bg-black opacity-50 z-10"/>
+          <div className="absolute inset-0 bg-black opacity-50 z-10" />
           <div className='flex-custom-center w-full h-full z-20'>
             <div className='flex-custom-col items-center justify-center hero-flex-gap'>
               <div className='flex-custom-center'>
@@ -53,7 +53,7 @@ const HeroSection = () => {
       </div>
 
       {/* footer img */}
-      
+
     </section>
   );
 }

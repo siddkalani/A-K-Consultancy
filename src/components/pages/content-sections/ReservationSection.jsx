@@ -20,24 +20,24 @@ const ReservationSection = () => {
                         <div className='flex-custom-center w-full h-full z-20'>
                             <div className='flex-custom-col items-center justify-center hero-flex-gap h-full'>
 
-                                    <div className='flex-custom-col items-center hero-flex-gap'>
-                                        <h1
-                                            className='hero-h1 mt-[-0.175em] mb-[-0.25em] text-center text-[var(--color-white)]'
-                                            data-aos="fade-up" // Add AOS animation attribute
-                                            data-aos-duration="1000" // Animation duration in milliseconds
-                                        >
-                                            True Engagement Begins <br />
-                                            with Understanding
-                                        </h1>
+                                <div className='flex-custom-col items-center hero-flex-gap'>
+                                    <h1
+                                        className='hero-h1 mt-[-0.175em] mb-[-0.25em] text-center text-[var(--color-white)]'
+                                        data-aos="fade-up" // Add AOS animation attribute
+                                        data-aos-duration="1000" // Animation duration in milliseconds
+                                    >
+                                        True Engagement Begins <br />
+                                        with Understanding
+                                    </h1>
+                                </div>
+
+                                <div className={`btn md:w-[12rem] w-[80%] btn-svg h-[3rem] border-[0.5px] border-white bg-transparent text-white hover:bg-white hover:text-black`}>
+                                    <div className='btn-content gap-3'>
+
+                                        <span className=''>VISIT US</span>
+
                                     </div>
-
-                                    <div className={`btn md:w-[12rem] w-[80%] btn-svg h-[3rem] border-[0.5px] border-white bg-transparent text-white hover:bg-white hover:text-black`}>
-                                        <div className='btn-content gap-3'>
-
-                                            <span className=''>VISIT US</span>
-
-                                        </div>
-                                    </div>
+                                </div>
 
                                 <footer className="md:absolute bottom-0 container mx-auto text-white">
                                     <div className="w-full md:flex md:flex-col items-center justify-center">

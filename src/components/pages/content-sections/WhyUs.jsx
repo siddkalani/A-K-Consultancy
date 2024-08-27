@@ -14,7 +14,7 @@ const WhyUs = () => {
                                 muted
                                 playsInline
                             >
-                                <source src="/videos/BusinessAudit.mp4" type="video/mp4" className=''/>
+                                <source src="/videos/BusinessAudit.mp4" type="video/mp4" className='' />
                             </video>
                         </div>
                     </div>
@@ -22,17 +22,17 @@ const WhyUs = () => {
                         <h2 className="text-2">The Value We Bring to Your Business:</h2>
                         <div className="space-y-4">
                             <p className="text-4">
-                            Expertise
+                                Expertise
                                 <br />
                                 We offer specialized knowledge across various industries, ensuring you receive tailored insights and solutions.
                             </p>
                             <p className="text-4">
-                            Innovation
+                                Innovation
                                 <br />
                                 Our approach integrates cutting-edge tools and methodologies, leveraging the latest advancements to deliver optimal results.
                             </p>
                             <p className="text-4">
-                            Commitment
+                                Commitment
                                 <br />
                                 Our dedicated team is passionate about driving success, providing unwavering support and strategic guidance to achieve your goals.
                             </p>
