@@ -37,27 +37,43 @@ const ImageSlider = () => {
     };
 
     return (
-        <section className='section-padding'>
+        <section className='pt-[var(--section-padding)]'>
             <div className='container-custom'>
-            <div className='row-title flex justify-center w-full'>
+                <div className='flex justify-center w-full'>
                     <div className='styled-col items-center justify-center'>
                         <div className='text-center'>
-                            <div className='ornament'>
-                                <img src="/images/symbols/section-symbol.svg" alt="Ornament" />
+                            <div
+                                className='ornament'
+                                data-aos="fade-right" // Slide-in animation from right
+                                data-aos-duration="500" // Duration of the animation 
+                            >
+                                <img src="/gifs/icon2.gif" alt="Ornament" />
                             </div>
                         </div>
-                        <div className='text-center'>
-                            <div className='col-row-title'>
-                                <h2>Tropical, local and good</h2>
+                        <div
+                            className='text-center'
+                        >
+                            <div 
+                            className='col-row-title'
+                            data-aos="fade-right" // Slide-in animation from right
+                            data-aos-duration="500" // Duration of the animation 
+                            data-aos-delay="200"
+                            >
+                                <h2 className='text-2'>Tropical, local and good</h2>
                             </div>
                         </div>
-                        <div className='text-center max-w-[35em]'>
-                            <p>We use organic ingredients wherever possible. Many things we grow ourselves. Herbs and salads from our market garden. Honey from the Damai bees. Poultry, eggs and fresh coconut oil from our village. Fish from the local fishermen. Very few imports, always of the best quality we can find.</p>
+                        <div
+                            className='text-center max-w-[35em]'
+                            data-aos="fade-right" // Slide-in animation from right
+                            data-aos-duration="500" // Duration of the animation 
+                            data-aos-delay="400"
+                        >
+                            <p className='text-4'>We use organic ingredients wherever possible. Many things we grow ourselves. Herbs and salads from our market garden. Honey from the Damai bees. Poultry, eggs and fresh coconut oil from our village. Fish from the local fishermen. Very few imports, always of the best quality we can find.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='w-full relative'>
+            {/* <div className='w-full relative'>
                 <div className='md:flex md:flex-row flex flex-col w-full gap-[var(--container-padding)]'>
                     <div className='wallpaper-carousel md:w-[50%] w-full'>
                         <div className='carousel-inner' style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
@@ -99,7 +115,7 @@ const ImageSlider = () => {
                         </button>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 };

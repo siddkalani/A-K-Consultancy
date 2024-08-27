@@ -22,8 +22,8 @@ const HeroSection = () => {
               <div className='flex-custom-center'>
                 <div
                   className={`inline-block text-4xl h-[1.25rem] transition-all has-sticky-header:!text-primary text-red-600`}
-                  data-aos="fade-up" // Add AOS animation attribute
-                  data-aos-duration="1000" // Animation duration in milliseconds
+                  data-aos="fade-in" // Add AOS animation attribute
+                  data-aos-duration="2000" // Animation duration in milliseconds
                 >
                   𝐀&𝐊
                 </div>
@@ -31,7 +31,7 @@ const HeroSection = () => {
               <div className='text-center'>
                 <span
                   className='span-margin eyebrow text-hero-span'
-                  data-aos="fade-in" // Add AOS animation attribute
+                  data-aos="fade-up" // Add AOS animation attribute
                   data-aos-duration="1000" // Animation duration in milliseconds
                 >
                   A company well worth a journey

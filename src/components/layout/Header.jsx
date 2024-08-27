@@ -37,7 +37,7 @@ const Header = () => {
       className={`
         ${scrollState.isScrolling ? 'z-[100] fixed w-full p-mobile' : 'z-[100] fixed w-full p-mobile'}
         ${scrollState.isScrolling && !scrollState.isDarkMode ? '' : ''}
-        ${scrollState.isDarkMode ? 'bg-[var(--color-light)]' : ''}
+        ${scrollState.isDarkMode ? 'backdrop-blur-lg bg-opacity-75 bg-white' : ''}
         transition-all duration-300
       `}
     >
@@ -57,7 +57,7 @@ const Header = () => {
                 <li key={index} className='nav-a'>
                   <a href='#' className='flex-custom-center relative overflow-hidden group uppercase'>
                     <span className='nav-span inline-block transition-all duration-300 ease-in-out transform group-hover:scale-105 group-hover:text-[var(--color-accent)]'>
-                      <span className='text-5 hover-underline'>{item}</span>
+                      <span className={`text-5 ${scrollState.isDarkMode ? 'dark-underline' : 'hover-underline'}`}>{item}</span>
                     </span>
                   </a>
                 </li>
