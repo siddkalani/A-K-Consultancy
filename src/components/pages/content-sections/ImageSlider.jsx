@@ -53,13 +53,13 @@ const ImageSlider = () => {
                         <div
                             className='text-center'
                         >
-                            <div 
-                            className='col-row-title'
-                            data-aos="fade-right" // Slide-in animation from right
-                            data-aos-duration="500" // Duration of the animation 
-                            data-aos-delay="200"
+                            <div
+                                className='col-row-title'
+                                data-aos="fade-right" // Slide-in animation from right
+                                data-aos-duration="500" // Duration of the animation 
+                                data-aos-delay="200"
                             >
-                                <h2 className='text-2'>Tropical, local and good</h2>
+                                <h2 className='text-2'>Here we are for your help</h2>
                             </div>
                         </div>
                         <div
