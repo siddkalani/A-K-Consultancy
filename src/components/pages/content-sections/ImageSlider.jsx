@@ -59,7 +59,7 @@ const ImageSlider = () => {
                                 data-aos-duration="500" // Duration of the animation 
                                 data-aos-delay="200"
                             >
-                                <h2 className='text-2'>Here we are for your help</h2>
+                                <h2 className='text-2'>Building Wide Networks</h2>
                             </div>
                         </div>
                         <div
@@ -68,7 +68,7 @@ const ImageSlider = () => {
                             data-aos-duration="500" // Duration of the animation 
                             data-aos-delay="400"
                         >
-                            <p className='text-4'>We use organic ingredients wherever possible. Many things we grow ourselves. Herbs and salads from our market garden. Honey from the Damai bees. Poultry, eggs and fresh coconut oil from our village. Fish from the local fishermen. Very few imports, always of the best quality we can find.</p>
+                            <p className='text-4'>In today's interconnected world, success often depends on the strength of your network. At A&K, we recognize the power of connections and are committed to helping you build a wide and influential network. Our extensive industry relationships and strategic partnerships enable us to connect you with the right people, opportunities, and resources.</p>
                         </div>
                     </div>
                 </div>

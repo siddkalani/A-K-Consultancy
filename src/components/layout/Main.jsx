@@ -18,12 +18,11 @@ const Main = () => {
       <HeroSection />
       <DiningIntro />
       {/* <ParallaxImages /> */}
-      <Earth/>
+      <Earth />
       <WhyUs />
-      <Report/>
+      <Report />
       <ImageSlider />
-      
-      <ReservationSection/>
+      <ReservationSection />
     </div>
 
   )

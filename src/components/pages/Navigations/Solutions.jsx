@@ -2,18 +2,66 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+const sections = [
+  {
+    id: '#1',
+    title: 'Governance advisory',
+    content: 'We guide boards and management teams in frameworks, team processes and leadership dynamics to deliver sustainable value.',
+  },
+  {
+    id: 'Myth #2',
+    title: 'Financial services advisory',
+    content: 'Get market-driven expertise to achieve your goals in banking, insurance, capital markets, and investment management.',
+  },
+  {
+    id: 'Myth #3',
+    title: 'Business risk services',
+    content: 'Our market-driven expertise helps firms keep growing and manage risk in an evolving regulatory landscape.',
+  },
+  {
+    id: 'Myth #4',
+    title: 'Economic consulting',
+    content: 'Bespoke guidance grounded in complex economic theory and practical sector insight to help you make the right decisions.',
+  },
+  {
+    id: 'Myth #5',
+    title: 'Transaction advisory services',
+    content: 'Whether buying or selling, we help you get the deal done with our comprehensive range of transaction advisory services.',
+  },
+  {
+    id: 'Myth #6',
+    title: 'Financial accounting advisory services (FAAS)',
+    content: 'Our FAAS team can support your finance function with the flexible resource they need to get results.',
+  },
+  {
+    id: 'Myth #7',
+    title: 'Insolvency and global asset recovery',
+    content: 'We provide asset tracing and seamless cross-border global recovery for clients.',
+  },
+  {
+    id: 'Myth #8',
+    title: 'Forensic and investigation services',
+    content: 'Market-driven expertise in investigations, dispute resolution and digital forensics.',
+  },
+  {
+    id: 'Myth #9',
+    title: 'Transformation consulting',
+    content: 'Is business transformation a priority for your organisation? Our expert insight and guidance can help you achieve it.',
+  },
+];
+
 const Solutions = () => {
   useEffect(() => {
     AOS.init({ duration: 700, once: false });
   }, []);
 
   return (
-    <div className='w-full h-full relative section-padding bg-[#333333]'>
+    <div className='w-full h-full relative section-padding bg-[#333333] overflow-hidden'>
       <section className="big-label-text flex items-center justify-center">
-        <div className="w-[90%]">
+        <div>
           <div className="mb-14 | sm:mb-16 md:mb-20 | lg:mb-24">
             <span className="smallHeading smallHeading--left opacity-50 text-white">
-            Bespoke Solutions for Optimal Results
+              Bespoke Solutions for Optimal Results
             </span>
             <h2
               className="sectionHeading sectionHeading--medium text-white"
@@ -22,367 +70,46 @@ const Solutions = () => {
                 textAlign: 'left'
               }}
             >
-            Our consulting agency delivers customized strategies to tackle your unique challenges. From optimizing processes to implementing innovative technology, we turn your vision into reality with expert guidance.{' '}
+              Our consulting agency delivers customized strategies to tackle your unique challenges. From optimizing processes to implementing innovative technology, we turn your vision into reality with expert guidance.{' '}
             </h2>
           </div>
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-               #1
-            </span>
-            <h2
-              className="big-label-text__heading text-white font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-            Governance advisory
-            </h2>
+
+          {sections.map((section, index) => (
             <div
-              className="Wysiwyg Wysiwyg--medium  Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              We guide boards and management teams in frameworks, team processes and leadership dynamics to deliver sustainable value.{' '}
-                <a
-                  href="https://support.google.com/merchants/answer/7558973?hl=en-GB"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* article explains */}
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #2
-            </span>
-            <h2
-              className="big-label-text__heading text-white font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
+              key={index}
+              className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:pt-52"
               style={{
-                maxWidth: '582px'
+                maxWidth: '1172px'
               }}
-              data-aos="fade-right"
             >
-              Financial services advisory
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Get market-driven expertise to achieve your goals in banking, insurance, capital markets, and investment management.{' '}
-                <a
-                  href="https://www.youtube.com/watch?v=jHc_NIr8CPQ"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* Google’s words */}
-                </a>
-                {/* {' '}not ours. */}
-              </p>
-              <p className='text-white'>
-                {/* A simple way to dispel this myth is to run a trial with us and let the numbers do the talking. */}
-              </p>
+              <span
+                className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
+                data-aos="fade-in"
+              >
+                {section.id}
+              </span>
+              <h2
+                className="big-label-text__heading text-white font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
+                style={{
+                  maxWidth: '582px'
+                }}
+                data-aos="fade-right"
+              >
+                {section.title}
+              </h2>
+              <div
+                className="Wysiwyg Wysiwyg--medium  Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
+                data-aos="fade-left"
+              >
+                <p className='text-white'>
+                  {section.content}
+                </p>
+              </div>
             </div>
-          </div>
-
-        
-        
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #3
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-             Business risk services
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Our market-driven expertise helps firms keep growing and manage risk in an evolving regulatory landscape.{' '}
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #4
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-            Economic consulting
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Bespoke guidance grounded in complex economic theory and practical sector insight to help you make the right decisions.
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #5
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-            Transaction advisory services
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Whether buying or selling, we help you get the deal done with our comprehensive range of transaction advisory services.
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #6
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-            Financial accounting advisory services (FAAS)
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Our FAAS team can support your finance function with the flexible resource they need to get results.
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #7
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-   Insolvency and global asset recovery
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              We provide asset tracing and seamless cross-border global recovery for clients.
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #8
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-             Forensic and investigation services
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Market-driven expertise in investigations, dispute resolution and digital forensics.
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
-          <div
-            className="relative flex flex-col gap-x-16 justify-between border-t border-white border-opacity-25 mt-9 mb-14 pt-8 | sm:flex-row sm:mb-16 sm:pt-10 | md:mb-20 md:pt-16 | lg:mb-24 lg:pt-36 | xl:mb-44 xl:pt-52"
-            style={{
-              maxWidth: '1172px'
-            }}
-          >
-            <span
-              className="absolute text-black font-medium z-0 top-0 left-0 leading-none text-7xl | sm:text-8xl | md:text-9xl lg:text-[285px]"
-              data-aos="fade-in"
-            >
-              Myth #9
-            </span>
-            <h2
-              className="text-white big-label-text__heading font-medium relative sectionHeading sectionHeading--left sectionHeading--big z-10 w-5/12 lg:max-w-xl mb-8 sm:m-0"
-              style={{
-                maxWidth: '582px'
-              }}
-              data-aos="fade-right"
-            >
-            Transformation consulting
-            </h2>
-            <div
-              className="Wysiwyg Wysiwyg--medium Wysiwyg--light-bg w-full z-10 | lg:w-5/12"
-              data-aos="fade-left"
-            >
-              <p className='text-white'>
-              Is business transformation a priority for your organisation? Our expert insight and guidance can help you achieve it.
-                <a
-                  href="https://www.awin.com/gb/black-friday/preparing-for-peak-css-opportunity-retail-brands"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {/* great article */}
-                </a>
-                {/* {' '}on this where they show that advertisers with two CSS partners delivered 2.5x additional growth over a 12-month period vs advertisers with only one CSS partner. */}
-              </p>
-            </div>
-          </div>
-
+          ))}
         </div>
       </section>
+
       <footer className="md:absolute bottom-0 w-full items-center justify-center mx-auto text-white">
         <div className="w-full md:flex md:flex-col items-center justify-center">
           <div className="flex flex-col md:flex-row md:justify-between items-center text-18 md:text-5">

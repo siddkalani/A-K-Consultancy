@@ -519,7 +519,7 @@
     }
 
     .btn-content span {
-        font-size: var(--copy-size-m);
+        font-size:1rem;
         /* color: var(--color-white); */
         font-weight: 400;
         text-align: center;
@@ -814,6 +814,11 @@
         padding-right: var(--container-padding);
         max-width: calc(var(--title-size) * 11);
     }
+    .industry-container{
+        padding-left: var(--container-padding);
+        padding-right: var(--container-padding);
+        max-width: calc(var(--title-size) * 11);
+    }
 
     /* parallax section */
     .parallax-gap {
@@ -828,7 +833,7 @@
     .wallpaper-carousel {
         position: relative;
         width: 50%;
-        height: 100%;
+        height: 30rem;
         overflow: hidden;
     }
 
@@ -919,7 +924,7 @@
         transition: width 0.3s ease-in-out;
     }
 
-    .hover-underline:hover::after {
+    .hover-underline:hover::after{
         width: 100%;
     }
 
