@@ -15,28 +15,28 @@ const Industries = () => {
             text: 'Travel and Tourism. Our expertise and insight can guide you through evolving trends and challenges to enhance your success in the travel and tourism industry'
         },
         {
-            image: '/images/carousel/section-2/image1.jpg',
-            text: 'Text for Image 4. Curabitur blandit tempus porttitor.'
+            image: '/images/carousel/section-1/consumer2.jpg',
+            text: 'Consumer Goods and Distribution. Navigate market shifts and distribution challenges with tailored insights to enhance your success in the consumer goods sector.'
         },
         {
-            image: '/images/carousel/section-2/image2.jpg',
-            text: 'Text for Image 5. Maecenas sed diam eget risus varius blandit sit amet non magna.'
+            image: '/images/carousel/section-1/com.jpg',
+            text: 'Communication and Media. Stay ahead of evolving trends and challenges in communication and media with strategies designed to boost your industry success.'
         },
         {
-            image: '/images/carousel/section-2/image3.jpg',
-            text: 'Text for Image 6. Nulla vitae elit libero, a pharetra augue.'
+            image: '/images/carousel/section-1/energy.jpg',
+            text: 'Energy Resources and Utility. Navigate industry shifts and operational challenges in energy, resources, and utilities with tailored strategies for sustained growth and efficiency.'
         },
         {
-            image: '/images/carousel/section-1/image1.jpg',
-            text: 'Text for Image 7. Aenean lacinia bibendum nulla sed consectetur.'
+            image: '/images/carousel/section-1/medico.jpg',
+            text: 'HealthCare. Transform your approach to healthcare with insights and solutions designed to address evolving needs and enhance patient outcomes.'
         },
         {
-            image: '/images/carousel/section-1/image2.jpg',
-            text: 'Text for Image 8. Vestibulum id ligula porta felis euismod semper.'
+            image: '/images/carousel/section-1/real.jpg',
+            text: 'Infrastructure and Real Estate. Elevate your success in real estate and infrastructure with strategies that address market dynamics and drive growth.'
         },
         {
-            image: '/images/carousel/section-1/image3.jpg',
-            text: 'Text for Image 9. Cras mattis consectetur purus sit amet fermentum.'
+            image: '/images/carousel/section-1/public.jpg',
+            text: 'Government and Public Sector. Transform public service with innovative solutions that meet the evolving needs of the government sector.'
         },
     ];
 

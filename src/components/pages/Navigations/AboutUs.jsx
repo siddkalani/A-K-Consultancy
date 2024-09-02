@@ -32,12 +32,11 @@ const AboutUs = () => {
                                     <span className='span-margin eyebrow text-white'>Founder</span>
                                 </div>
                                 <div className='col-row col-row-title medium'>
-                                    <h2 className='text-white text-2'>Gaandu Paandu</h2>
+                                    <h2 className='text-white text-2'>Abhishekh Pandey</h2>
                                 </div>
                                 <div className='max-w-[35em]'>
                                     <p className='text-white text-4'>
-                                        The restaurant at Damai opened in 1997. Over the decades many chefs have contributed to the kitchen, but none more than Danish master chef Per Thøstesen, formerly of Paul Bocuse in France. His cuisine merged classic French and Asian traditions, in an innovative highly local, market-fresh approach. His legacy continues today.
-                                        His 1998 book with recipes from Damai became an international bestseller. In his new award-winning cookbook *My Bali Kitchen*, Per returns to his beloved Damai with new deliciously simple Balinese brasserie recipes, for you to try at home.
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dolorum ex necessitatibus laudantium doloribus alias odio. Corporis odit ex sequi fugit fugiat dolor eum. Quidem magnam alias sed vel commodi eligendi repellat minima incidunt, laborum fugit quo quos ipsam harum praesentium, suscipit deserunt? Vitae voluptatibus doloremque nihil dolorum quidem ex.
                                     </p>
                                 </div>
                             </div>
@@ -52,15 +51,14 @@ const AboutUs = () => {
                         <div className='flex md:justify-center w-full relative'>
                             <div className='flex-custom-col items-start justify-center hero-flex-gap'>
                                 <div className='text-left w-full'>
-                                    <span className='span-margin eyebrow text-white'>Co-Founder</span>
+                                    <span className='span-margin eyebrow text-white'>Director</span>
                                 </div>
                                 <div className='col-row col-row-title medium'>
-                                    <h2 className='text-white text-2'>Paandu ki Paandi</h2>
+                                    <h2 className='text-white text-2'>Krishita Kohli</h2>
                                 </div>
                                 <div className='max-w-[35em]'>
                                     <p className='text-white text-4'>
-                                        The restaurant at Damai opened in 1997. Over the decades many chefs have contributed to the kitchen, but none more than Danish master chef Per Thøstesen, formerly of Paul Bocuse in France. His cuisine merged classic French and Asian traditions, in an innovative highly local, market-fresh approach. His legacy continues today.
-                                        His 1998 book with recipes from Damai became an international bestseller. In his new award-winning cookbook *My Bali Kitchen*, Per returns to his beloved Damai with new deliciously simple Balinese brasserie recipes, for you to try at home.
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi enim impedit quos tenetur quisquam beatae rem vitae, deserunt a odio sit, pariatur dolorem ipsa similique earum magni rerum doloremque aspernatur cum dolore, sunt dolores? Fugiat impedit quos obcaecati ad minima?
                                     </p>
                                 </div>
                             </div>
