@@ -3,16 +3,16 @@ import React from 'react';
 const Industries = () => {
     const cardData = [
         {
-            image: '/images/carousel/section-1/image1.jpg',
-            text: 'Text for Image 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+            image: '/images/carousel/section-1/banking2.jpg',
+            text: 'Banking. Our expertise and insight can help you respond positively to long term and emerging issues in the banking sector.'
         },
         {
-            image: '/images/carousel/section-1/image2.jpg',
-            text: 'Text for Image 2. Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+            image: '/images/carousel/section-1/edu2.jpg',
+            text: 'Education. Our expertise and insight can help you navigate both current and emerging challenges in the education sector for long-term success.'
         },
         {
-            image: '/images/carousel/section-1/image3.jpg',
-            text: 'Text for Image 3. Donec ullamcorper nulla non metus auctor fringilla.'
+            image: '/images/carousel/section-1/travel2.jpg',
+            text: 'Travel and Tourism. Our expertise and insight can guide you through evolving trends and challenges to enhance your success in the travel and tourism industry'
         },
         {
             image: '/images/carousel/section-2/image1.jpg',
@@ -51,7 +51,7 @@ const Industries = () => {
                             data-aos-duration="500"
                             data-aos-delay="200"
                         >
-                            <h2 className='text-3'>Case Studies</h2>
+                            <h2 className='text-3'>Industries</h2>
                         </div>
                         <div
                             className=''
@@ -59,7 +59,7 @@ const Industries = () => {
                             data-aos-duration="500"
                             data-aos-delay="400"
                         >
-                            <p className='text-2'>Learn how we work with our clients and partners to transform their results</p>
+                            <p className='text-2'>Shaping Your Industry’s Future with Innovation and Expertise.</p>
                         </div>
                     </div>
                 </div>
@@ -79,6 +79,7 @@ const Industries = () => {
                                         <p className='text-white text-xl w-[80%]'>{card.text}</p>
                                     </div>
                                 </div>
+
                             ))}
                         </div>
                     ))}
